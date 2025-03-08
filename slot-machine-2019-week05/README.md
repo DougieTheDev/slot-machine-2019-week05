@@ -7,7 +7,7 @@ Build a simple slot machine with minimum 5 items per reel and 3 reels - user sho
 
 
 Completed the challenge: 5
-I feel good about my code: 4
+I feel good about my code: 5
 
 Feel good about my code. I think it's functioning and completes the challenge.
 I actually wanted to have the spinning reel visual with avatar the last airbender 

@@ -1,0 +1,140 @@
+body {
+    font-family: "Nabla", sans-serif, Georgia, 'Times New Roman', Times, serif, system-ui;
+    font-weight: 500;
+    font-style: normal;
+    background: linear-gradient(rgb(5,0,247), rgb(246,0,35) 70%);
+    color: rgb(255, 230, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0 100px;
+}
+
+
+
+h1 {
+    color: rgb(255, 230, 0);
+    background: black;
+    text-align: center;
+    display: block;
+    margin-top: 0;
+    margin-bottom: 50px;
+    font-family: "Nabla", sans-serif, Georgia, 'Times New Roman', Times, serif, system-ui;
+}
+
+.slot-machine {
+    text-align: center;
+    border: 3px solid black;
+    background: url("https://m.media-amazon.com/images/I/81Vu8uhhgQL._AC_UF894,1000_QL80_.jpg");
+    width: 700px;
+    height: 600px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1)
+}
+
+#result {
+    font-size: 30px;
+    margin-bottom: 30px;
+    display: inline;
+    background: black;
+}
+
+#slot-screen {
+    display: flex;
+    justify-content: center;
+    font-family: "Nabla", sans-serif, Georgia, 'Times New Roman', Times, serif, system-ui;
+}
+
+.numbers {
+    background-color: rgb(0, 0, 0);
+    color: #000000;
+    font-size: 48px;
+    padding: 20px;
+    margin: 10px;
+    width: 80px;
+    height: 100px;
+    border-radius: 10px;
+    border: 2px solid rgb(5,0,247);
+}
+
+#num2 {
+    border: 2px solid rgb(246,0,35);
+}
+
+label {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 230, 0);
+    border: 2px solid rgb(246,0,35);
+    border-radius: 5px;;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#bet-amount {
+    border: 2px solid rgb(5,0,247);
+    border-radius: 5px;;
+}
+
+#spin-button {
+    border: 2px solid rgb(246,0,35);
+}
+
+button {
+    background-color: rgb(255, 230, 0);
+    color: #000000;
+    font-size: 20px;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#min-bet-button {
+    background-color: rgb(255, 230, 0);
+    border: 2px solid rgb(5,0,247);
+}
+
+#max-bet-button {
+    background-color: rgb(255, 230, 0);
+    border: 2px solid rgb(5,0,247);
+}
+
+button:hover {
+    background-color: rgb(255, 230, 0);
+}
+
+button:focus {
+    outline: none;
+}
+
+button:active {
+    background-color: rgb(255, 230, 0);
+}
+
+.betting {
+    margin-top: 20px;
+}
+.betting>div {
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 10px;
+    font-size: 18px;
+    width: 80px;
+    text-align: center;
+    color: #000000;
+    background-color: rgb(255, 230, 0);
+}
+p {
+    margin-top: 75px;
+}
+.balance {
+    font-size: 40px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+}
