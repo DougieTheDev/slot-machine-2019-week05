@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slot Machine</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Press+Start+2P&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nabla&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Press+Start+2P&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="slot-machine">
+        <h1>"Ways to Lose Your Money for 100, Alex"</h1>
+
+        <h2 id="result">MOST HONEST SLOT YOU'LL EVER TRY</h2>
+        <div id="slot-screen">
+            <div class="numbers" id="num1"></div>
+            <div class="numbers" id="num2"></div>
+            <div class="numbers" id="num3"></div>
+        </div>
+        <div class="betting">
+            <div>
+                <button id="min-bet-button">Set Min Bet to $1</button>
+                <button id="max-bet-button">Set Max Bet to $5000</button>
+            </div>
+            <label for="bet-amount">BET AMOUNT</label>
+            <input type="number" id="bet-amount" min="1" max="1000000" value="10">
+            <button id="spin-button">Spin</button>
+        </div>
+        <div class="balance">
+            <p>Wallet: $<span id="balance">10000</span></p>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
